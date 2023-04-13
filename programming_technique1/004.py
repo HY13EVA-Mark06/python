@@ -1,3 +1,11 @@
+#問題
+#学生会員クラス StudentMember を作成してください。
+#[条件]
+#・Memberクラスを継承して作成。
+#・初期ポイントは 100ポイント。 
+#・pointup()メソッドは+200ポイントにします。 
+#・print_member()メソッドに「学生会員です」と追加で表示されるようにします。
+
 class Member:
   def __init__(self, name="", point=100):
     self.name = name
